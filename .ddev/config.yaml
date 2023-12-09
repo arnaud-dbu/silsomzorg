@@ -1,4 +1,4 @@
-name: craft-base-install
+name: silsomzorg
 type: craftcms
 docroot: public
 php_version: '8.2'

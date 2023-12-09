@@ -7,7 +7,7 @@ require_once 'contrib/cachetool.php';
 require_once 'contrib/yarn.php';
 
 // Config
-set('repository', 'git@bitbucket.org:statikbe/[PROJECT_CODE_HERE].git');
+set('repository', 'git@bitbucket.org:statikbe/silsomzorg.git');
 //change writeable mode to chown because combell does not have acl installed:
 set('writable_mode', 'chown');
 set('keep_releases', 2);
@@ -113,7 +113,7 @@ task('statik:symlink', function () {
     $stage = get('stage');
 
     if ($stage === 'production') {
-        run('if [ ! -L "/data/sites/web/[PROJECT_CODE_HERE]livestatikbe/www" ]; then ln -s subsites/[PROJECT_CODE_HERE].live.statik.be/current/public /data/sites/web/[PROJECT_CODE_HERE]livestatikbe/www; fi');
+        run('if [ ! -L "/data/sites/web/silsomzorglivestatikbe/www" ]; then ln -s subsites/silsomzorg.live.statik.be/current/public /data/sites/web/silsomzorglivestatikbe/www; fi');
     } else {
         run('echo "only run this task on production"');
     }

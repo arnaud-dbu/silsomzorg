@@ -1,6 +1,6 @@
 @layer base {
   body {
-    @apply antialiased text-black font-base;
+    @apply antialiased font-thin text-black font-base ;
   }
 
   h1,
@@ -12,12 +12,17 @@
     @apply mb-4 font-bold;
   }
 
+  h1,
+  h2 {
+    @apply font-accent;
+  }
+
   h1 {
-    @apply text-3xl;
+    @apply text-white text-7xl;
   }
 
   h2 {
-    @apply text-2xl;
+    @apply text-3xl text-primary-600;
   }
 
   h3 {
@@ -113,7 +118,20 @@
   }
 }
 
-/* .lazyload,
+.img-bg {
+  @apply relative;
+  
+  &::after {
+    @apply absolute content-[""] bg-primary-300 -left-2 -top-2 w-full h-[19rem];
+    border-radius: 8rem 0 8rem 0;
+  }
+}
+
+.img-border {
+  border-radius: 4rem 0 4rem 0;
+}
+
+/* .lazyloadsi
 .lazyloading {
   opacity: 0;
 }

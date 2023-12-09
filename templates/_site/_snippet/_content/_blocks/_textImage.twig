@@ -5,7 +5,7 @@
 		<div class="w-full px-4 md:w-1/2">
 			{% set image = block.image.collect().first() %}
 			{% set optimizedImage = image.optimizedTextImage %}
-			<picture>
+			<picture class="relative">
 				{% if craft.imageOptimize.serverSupportsWebP() and image.extension != 'svg' and image.extension != 'gif' %}
 					<source srcset="{{ optimizedImage.srcsetWebP() }}"
 							sizes="(max-width: 479px) 95vw, (min-width: 480px) and (max-width: 659px) 448px, (min-width: 660px) and (max-width: 819px) 628px, (min-width: 820px) and (max-width: 979px) 378px, (min-width: 980px) and (max-width: 1199px) 458px, (min-width: 1200px) 568px"
@@ -17,12 +17,13 @@
 						alt="{{ image.alt }}"
 						class="w-full" loading="lazy"/>
 				{% else %}
+					{# <div class="img-bg"></div> #}
 					<img src="{{ optimizedImage.placeholderBox() }}"
 						srcset="{{ optimizedImage.srcset() }}"
 						sizes="(max-width: 479px) 95vw, (min-width: 480px) and (max-width: 659px) 448px, (min-width: 660px) and (max-width: 819px) 628px, (min-width: 820px) and (max-width: 979px) 378px, (min-width: 980px) and (max-width: 1199px) 458px, (min-width: 1200px) 568px"
 						width="{{optimizedImage.placeholderWidth}}" height="{{optimizedImage.placeholderHeight}}"
 						alt="{{ image.alt }}"
-						class="w-full" loading="lazy"/>
+						class="w-1/2 shadow-md img-border" loading="lazy"/>
 				{% endif %}
 			</picture>
 			{% if image.imageCopyright|length or image.imageCaption|length %}

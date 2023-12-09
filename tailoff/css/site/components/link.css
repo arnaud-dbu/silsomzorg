@@ -1,5 +1,5 @@
 .link {
-  @apply inline-flex underline text-primary;
+  @apply inline-flex font-bold text-primary;
 
   &:hover {
     @apply no-underline;
@@ -7,10 +7,10 @@
 
   &--ext {
     @apply items-center;
-    @mixin icon chevron-right;
+    @mixin icon arrow-right;
 
     &::after {
-      @apply ml-1;
+      @apply ml-2;
     }
   }
 

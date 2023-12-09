@@ -5,13 +5,13 @@ const colorShade = require('../../tailwind/color-shades');
 
 const siteColors = {
     primary: {
-        DEFAULT: '#C22A1B',
+        DEFAULT: '#AB5E4F',
         contrast: '#ffffff',
         hover: '#f27266',
         hoverContrast: '#ffffff',
     },
     secondary: {
-        DEFAULT: '#0409a6',
+        DEFAULT: '#587B7F',
         contrast: '#ffffff',
         hover: '#050cd8',
         hoverContrast: '#ffffff',
@@ -38,8 +38,8 @@ module.exports = {
             padding: defaultTheme.spacing['4'],
         },
         fontFamily: {
-            accent: 'serif',
-            base: 'sans-serif',
+            accent: 'Prata',
+            base: 'Urbanist',
         },
         screens: {
             xs: '480px',
@@ -51,9 +51,10 @@ module.exports = {
         extend: {
             colors: {
                 ...siteColors,
-                'black': '#333333',
+                'black': '#0A122A',
+                'white': '#F8F2F1',
                 'pitch-black': '#000000',
-                'light': '#f5f5f5',
+                'light': '#F8F2F1',
             },
             screens: {
                 print: { raw: 'print' },
