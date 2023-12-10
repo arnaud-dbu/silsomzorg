@@ -7,9 +7,9 @@
 	{% if settings.section is defined %}
 		<div class="{{ settings.section }} {% if block['backgroundColor'] is defined %}{{ block.backgroundColor }}{% endif %}">
 	{% endif %}
-
+	
 		{% if settings.container is defined %}
-			<div class="{{ settings.container }}">
+			<div class="{% if block.type.handle != "callToAction" %}{{ settings.container }}{% endif %}">
 	    {% endif %}
 
 			{% include '_site/_snippet/_content/_blocks/_'~block.type.handle with { settings: settings} %}
