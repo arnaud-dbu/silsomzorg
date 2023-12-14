@@ -1,0 +1,46 @@
+fieldLayouts:
+  15592297-2447-4ddf-9a24-2490ec272ef7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c28a9c90-4ff2-4153-98c6-037eddae464f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1671c383-d89b-4ce3-9f7f-ea6a3db2051d
+        userCondition: null
+handle: methode
+hasTitleField: false
+name: Methode
+section: dae8fee4-9b79-4e5f-a186-788dca59dcbc # Methode
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

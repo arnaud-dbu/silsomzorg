@@ -1,0 +1,17 @@
+{% if entry.list %}
+	<div class="">
+		<ol class="container relative section ">
+			{% for item in entry.list %}
+				<li class="mb-8 lg:max-w-[40rem] ml-auto">
+					<span class="block mb-2 font-normal text-secondary-400 text-7xl font-accent">{{item.sortOrder}}</span>
+					<h3>{{ item.blockTitle }}</h3>
+					<p>{{item.body}}</p>
+				</li>
+
+			{% endfor %}
+			<div class="hidden lg:block absolute -top-[7.5rem] -left-[10rem] xl:-left-0 opacity-50 -z-10">
+				{{ svg('@webroot/frontend/img/site/shape.svg')|attr({ class:'shape-secondary' }) }}
+			</div>
+		</ol>
+	</div>
+{% endif %}

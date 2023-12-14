@@ -1,21 +1,9 @@
 fieldLayouts:
-  18e24082-7b63-4b1e-b77d-542374620a67:
+  21ba688e-2fe9-4413-b218-3539ce9cc83e:
     tabs:
       -
         elementCondition: null
         elements:
-          -
-            elementCondition: null
-            fieldUid: 37471b2c-6c44-4b1a-bc50-3788e9de05d5 # Hero
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3ec31f7f-f499-45da-8214-7931988f070d
-            userCondition: null
-            warning: null
-            width: 100
           -
             autocapitalize: true
             autocomplete: false
@@ -38,7 +26,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: a491fe53-f0a9-4910-a939-9e698de755fd
+            uid: 7d6fbbf5-5aca-4fda-9912-055b36b8333e
             userCondition: null
             warning: null
             width: 100
@@ -50,7 +38,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f59dacf7-919e-4c14-870c-b91007f53026
+            uid: 4607f71c-c40a-4969-a78d-40894f6b94bb
             userCondition: null
             warning: null
             width: 100
@@ -62,7 +50,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 7bbbd90a-94a6-4996-af47-1a9464174ff7
+            uid: 05b8c297-a0af-4536-9c03-54fe307af400
             userCondition: null
             warning: null
             width: 100
@@ -74,7 +62,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5176d21f-106d-4b57-ba7e-8303d931c07b
+            uid: 621cfe0f-fed6-4dea-a7e9-ac0ca2085f3a
             userCondition: null
             warning: null
             width: 100
@@ -86,17 +74,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6f7c591c-3fda-4b45-94a0-4330963af619
+            uid: 17bf7592-88e3-4d18-8e0c-6a85f14f3fca
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: f7f58eaa-2077-4b58-879b-08a6b8273bee
+        uid: 8f477043-c74c-45a0-a8d1-6146f5579c66
         userCondition: null
-handle: aae
+handle: equitherapie
 hasTitleField: true
-name: AAE
-section: e307e3c6-1674-499a-a859-923d8b7f2e89 # AAE
+name: Equitherapie
+section: 30cf9f43-7f6c-41e2-8580-97a07eff970e # Equitherapie
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

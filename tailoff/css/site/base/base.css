@@ -1,6 +1,6 @@
 @layer base {
   body {
-    @apply antialiased font-thin text-black font-base ;
+    @apply antialiased font-thin text-black font-base bg-primary-100;
   }
 
   h1,
@@ -9,31 +9,32 @@
   h4,
   h5,
   h6 {
-    @apply mb-4 font-bold;
+    @apply mb-4 font-normal;
   }
 
   h1,
-  h2 {
+  h2,
+  h3 {
     @apply font-accent;
   }
 
   h1 {
-    @apply text-white text-7xl;
+    @apply text-4xl text-white sm:text-5xl xl:text-6xl;
   }
 
   h2 {
-    @apply text-3xl text-primary-600;
+    @apply text-3xl md:text-4xl xl:text-5xl text-primary-600;
   }
 
   h3 {
-    @apply text-xl;
+    @apply text-3xl text-secondary-800;
   }
 
   h4 {
     @apply text-lg;
   }
 
-  @screen md {
+  /* @screen md {
     h1 {
       @apply text-5xl;
     }
@@ -49,7 +50,7 @@
     h4 {
       @apply text-xl;
     }
-  }
+  } */
 
   p:not(:first-of-type) {
     @apply my-4;
@@ -127,8 +128,23 @@
   }
 }
 
+.bg-frame {
+  @apply before:absolute before:inset-0 before:bg-primary-300 before:z-[-1] before:content-[''] ;
+  
+  &::before {
+    border-radius: 7rem 0 7rem 0;
+  }
+    
+}
+
 .img-border {
-  border-radius: 4rem 0 4rem 0;
+  border-radius: 7rem 0 7rem 0;
+}
+
+.shape-secondary {
+  path {
+    @apply fill-secondary-300;
+  }
 }
 
 /* .lazyloadsi

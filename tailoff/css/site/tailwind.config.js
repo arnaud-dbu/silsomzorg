@@ -38,7 +38,7 @@ module.exports = {
             padding: defaultTheme.spacing['4'],
         },
         fontFamily: {
-            accent: 'Prata',
+            accent: 'Kalnia',
             base: 'Urbanist',
         },
         screens: {

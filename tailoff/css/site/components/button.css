@@ -1,6 +1,6 @@
 .btn {
-  @apply inline-flex items-center px-4 py-2 font-bold leading-none border-2;
-  border-radius: 1rem 0 1rem 0;
+  @apply inline-flex items-center px-4 py-2 leading-none border-2;
+  border-radius: 0 1rem 0 1rem;
 
   transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-timing-function: ease-in-out;
@@ -23,6 +23,10 @@
   &--ext:hover::after,
   .group:hover &--ext::after {
     transform: translateX(50%);
+  }
+  
+  &--sml {
+    @apply px-3 py-1;
   }
 
   &--primary {

@@ -1,8 +1,7 @@
 .section {
-  @apply py-6 bg-white;
+  @apply py-10 ;
 
   &--light {
-    @apply bg-white;
   }
 
   &--primary {

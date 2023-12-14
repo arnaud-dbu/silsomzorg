@@ -1,4 +1,4 @@
-dateModified: 1702239055
+dateModified: 1702576076
 elementSources:
   craft\elements\Entry:
     -
@@ -235,6 +235,7 @@ fs:
     url: '@baseUrl/files/'
 meta:
   __names__:
+    0b7aff2e-05d4-45c7-94c8-cf4be99ad6f1: Equitherapie # Equitherapie
     1a64e732-f1ae-44b6-aee3-bedc6b1ebdd2: 'Cookie policy' # Cookie policy
     1a9703c9-1eb8-4b3a-94e1-1386e5b24f2a: Title # Title
     1c4e3f0f-ca9b-474d-a460-48f45133c763: 'Forgot password' # Forgot password
@@ -242,6 +243,7 @@ meta:
     01faae48-e031-4496-af0c-89de7f12eccd: 'News categories' # News categories
     2a768305-5971-43c0-a2f4-415e648c6a45: Default # Default
     2c770290-8edc-4f26-b846-6d99d36d7844: Common # Common
+    2ca0a476-6c12-4021-92db-4b03db2aa891: Praktisch # Praktisch
     2e4b3bb0-26e4-47d2-9445-54401a221c63: 'X (Twitter)' # X (Twitter)
     2f8a6ddc-4ab7-4f9f-a2ea-72c6cb387f38: 'Overview description' # Overview description
     2fc9314d-a36d-4952-bc62-530aed9da924: Statik # Statik
@@ -257,6 +259,7 @@ meta:
     5e9cb47a-530d-4aa9-a98f-5049e6d0eb9e: Title # Title
     5f87e29c-269c-47bd-b6bc-5439a2f855c8: Register # Register
     6ca94949-c3f4-465d-88c7-3d4736d97ed4: Address # Address
+    6d6fbd97-60e1-42ee-9eea-c007e8e2c129: List # List
     6d99d3e8-e687-44e6-9e4f-8724da1c5123: Link # Link
     6de046f0-6167-4af1-aa91-ffaf83e36a14: NL # NL
     6f79e12f-9d80-4f17-ae51-5160127975ec: 'Site Settings' # Site Settings
@@ -272,6 +275,7 @@ meta:
     9abed6d9-3042-4dd4-add0-3115a6e2693b: 'Image position' # Image position
     9b825b00-aa1c-4ad2-b013-e29ee855e551: Text # Text
     9bc4b9f2-7fc6-48b0-a3df-8e9c061a70c6: Instagram # Instagram
+    9be5c0f5-81a2-4301-a7ee-7f616cd41325: 'Block Title' # Block Title
     9f39fdda-793c-4506-9dd4-e764d46cad28: Pages # Pages
     9faf6a00-afea-4a29-a217-e6af774f6b55: 'Call to action' # Call to action
     10fdc148-c0a4-486b-a5d1-3d36f2862352: 'Social Media' # Social Media
@@ -281,6 +285,7 @@ meta:
     026c273f-72f7-40c0-a753-023147f5b0ab: AAE # AAE
     29ce1a5b-53b3-4361-96e4-20fc58e90dac: SEO # SEO
     30c8e71d-a0e0-4ffe-be09-f9822ac071ff: 'Edit profile' # Edit profile
+    30cf9f43-7f6c-41e2-8580-97a07eff970e: Equitherapie # Equitherapie
     32fb962b-6278-43e9-812f-dc9f5e33c1ab: 'Forgot password' # Forgot password
     39b3406d-d1bb-4a84-a13a-bce5cc293238: Globals # Globals
     39f07216-d49a-4917-b05e-bec26f425843: 'Image Caption' # Image Caption
@@ -314,6 +319,7 @@ meta:
     815f235b-7817-462f-904d-a00904787aaf: Hyper # Hyper
     933f619e-82e4-4b3d-a27f-9d7d9cce42b8: Text # Text
     979c3eeb-f99a-4ca1-bcbe-ce9298a4e4ca: 'Public Files' # Public Files
+    2146a2f9-92b3-4e20-b9d4-a20dbeae0d81: Methode # Methode
     2184d090-d3e1-413b-8d21-b537c5141ef8: Image # Image
     2561c4fb-34b5-49e6-ade6-f774411e48ba: Video # Video
     3196b984-5af4-44dd-a6db-ac2c8f7924d9: 'Content Managers' # Content Managers
@@ -342,12 +348,14 @@ meta:
     36895330-a28e-477f-9327-bdbe66dabf99: 'Cookie policy' # Cookie policy
     88823369-72c4-4751-92df-a430c2f5784b: Profile # Profile
     95920915-f806-4fbc-9c22-979ec9085fe8: 'Text + Video' # Text + Video
+    96603958-5229-412d-91e6-f54312d59d5d: Body # Body
     a2d7684e-6737-4123-ad14-2c4e4221bbdd: 'Text Column 2' # Text Column 2
     a5c5b738-ae52-4b69-a209-d515d2e7b71a: 'Public Schema' # Public Schema
     a3573b91-af94-43de-8ceb-dc11cb7175b1: Link # Link
     a44287f8-d6ed-4f2c-8a63-0c1312ef236e: Image # Image
     aac522be-8926-4b5e-ae63-cb77840a69c9: 'Registration completed' # Registration completed
     ac60331a-e9bd-4399-8b44-42a2c469fd52: 'Background color' # Background color
+    ae20f2da-b61a-4f2f-9f16-792256ed34f3: Praktisch # Praktisch
     ae73d04c-119e-4cc7-a3fc-bf41d36c5510: 'Background Color' # Background Color
     af69e9a2-96df-4fa9-8cc3-2728ec4fc632: 'Edit password' # Edit password
     b1ca80f0-4eed-4f99-bebc-bca6c694cb00: 'Contact Form' # Contact Form
@@ -361,6 +369,7 @@ meta:
     bde7c3e4-1530-4cdf-94a4-6ac068e88c8a: 'CTA Column 1' # CTA Column 1
     be8c0ed1-8b8b-4cfe-bcca-d4f54be7bfff: 'Page not found' # Page not found
     bfa2f99e-1c8c-4348-8f89-00708397a119: Content # Content
+    c03f3996-1548-44f0-a2af-7af8dca04025: 'Over Mezelf' # Over Mezelf
     c7f05fcd-6b9c-44dd-baee-f3e9cd0c47ac: 'News Category' # News Category
     c9d6819e-8ea5-4d16-91de-4c691d11b42d: New # New
     c25b1e19-dca6-4ab5-a776-a043f6ee4c82: Login # Login
@@ -372,11 +381,13 @@ meta:
     cd736fb3-c9b7-4ce1-88a8-da8b64249eb1: Image # Image
     ce1fab3c-0b02-49d8-8d8f-1bab2d7c05e2: LinkedIn # LinkedIn
     d04eb799-5eb6-46db-92f8-88c4e6b8812e: Intro # Intro
+    d1d04451-f138-44f8-84d0-da5bd5e5417a: 'Over Mezelf' # Over Mezelf
     d3b383b6-5ad7-494f-bc13-c06a53a5e5e9: 'News Overview' # News Overview
     d8d1d5d4-1fab-4aaa-b9e7-0eca37062865: Text # Text
     d66ffcef-8ccc-4e89-9e36-bce49e0dd17a: Video # Video
     d5601a1f-a33e-4c5a-b7af-1f29347149ca: 'Registration completed' # Registration completed
     d86336d6-7efa-44f9-9a10-8619c79beeca: 'Text (+ Image)' # Text (+ Image)
+    dae8fee4-9b79-4e5f-a186-788dca59dcbc: Methode # Methode
     dca2ac05-7833-41de-b7b4-a737c090575c: 'Confirm your account' # Confirm your account
     df7389a1-233e-4f41-8340-9d16eee18c51: CTA # CTA
     e2e2a303-7d29-4edb-846d-84e6c8494c50: Title # Title
@@ -397,6 +408,7 @@ meta:
     f21594e6-d83e-4047-a36c-0d6b709719e1: Image # Image
     f936530d-29a5-4460-9ccd-b586bfb25329: 'Call to actions' # Call to actions
     fa6e0764-a31c-4304-a4d7-76bd3a679e3e: '503' # 503
+    fbc6aee0-702e-4da3-8a52-4950d751514d: 'List Item' # List Item
     fc9b3c7f-00f8-4113-aa56-b2328011d192: Link # Link
     fca40313-aa0d-4206-a530-c638a5166f69: 'Background Color' # Background Color
     fd2014b7-5bc0-49a9-ac30-e009081532f7: FR # FR

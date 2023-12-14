@@ -1,0 +1,46 @@
+fieldLayouts:
+  689771c4-2146-4659-8d77-d814b907d537:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6f45ccf6-a4dd-4415-8047-268e415faf54
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 05a7f57b-c33f-458d-971b-ff68451e6da5
+        userCondition: null
+handle: overMezelf
+hasTitleField: true
+name: 'Over Mezelf'
+section: d1d04451-f138-44f8-84d0-da5bd5e5417a # Over Mezelf
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

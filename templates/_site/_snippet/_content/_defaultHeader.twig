@@ -1,7 +1,8 @@
-<div
-	class="relative section section--light bg-primary">
-	{# {{ svg('@webroot/frontend/img/site/shape.svg')|attr({ class:'absolute -top-[5rem] -right-[21rem]' }) }} #}
-	<div class="container">
+<div class="overflow-hidden section section--light bg-primary">
+	<div class="container relative">
+	<div class="absolute w-[40rem] top-0 -right-[15rem] md:right-0 md:-top-[2.5rem] opacity-10 md:opacity-80">
+		{{ svg('@webroot/frontend/img/site/shape.svg')|attr({ class:'w-[35rem]' }) }}
+	</div>
 		<div class="flex flex-wrap -mx-4">
 			<div class="w-full px-4 {% if entry.headerImage|length %}md:w-1/2{% else %}md:w-3/4{% endif %}">
 				{% block headerText %}
@@ -20,7 +21,7 @@
 	{% set optimizedImage = headerImage.optimizedContent %}
 	<div class="w-full">
 		<div class="block w-full">
-			<picture class="block w-full bg-no-repeat bg-cover h-52 js-bg-target" style="background-position: {% for focalPoint in headerImage.getFocalPoint() %} {{ focalPoint * 100 }}% {% endfor %};">
+			<picture class="block w-full bg-no-repeat bg-cover h-[12.5rem] md:h-[17.5rem] lg:h-[20rem] xl:h-[25rem] js-bg-target" style="background-position: {% for focalPoint in headerImage.getFocalPoint() %} {{ focalPoint * 100 }}% {% endfor %};">
 				{% if craft.imageOptimize.serverSupportsWebP() and headerImage.extension != 'svg' and headerImage.extension != 'gif' %}
 					<source srcset="{{ optimizedImage.srcsetWebP() }}" sizes="(max-width: 479px) 95vw, (min-width: 480px) and (max-width: 659px) 448px, (min-width: 660px) and (max-width: 819px) 628px, (min-width: 820px) and (max-width: 979px) 591px, (min-width: 980px) and (max-width: 1199px) 711px, (min-width: 1200px) 876px" type="image/webp"/>
 				{% endif %}
