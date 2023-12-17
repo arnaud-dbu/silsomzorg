@@ -5,7 +5,7 @@
 {% if entry.contentBuilder %}
 	{% for block in entry.contentBuilder.with(['textImage:image', 'image:image', 'callToAction:image']).collect()|filter(block => block.status == 'enabled') %}
 		{% if settings.section is defined %}
-			<div class="{{ settings.section }} {% if block['backgroundColor'] is defined %}{{ block.backgroundColor }}{% endif %}">
+			<div class="{% if block.type.handle != "textImage" and block.type.handle != "callToAction" %}{{ settings.section }}{% endif %} {% if block['backgroundColor'] is defined %}{{ block.backgroundColor }}{% endif %}">
 			{% endif %}
 
 			{% if settings.container is defined %}

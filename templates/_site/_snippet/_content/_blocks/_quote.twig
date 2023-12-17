@@ -1,4 +1,4 @@
-<div class="w-full {% if settings.centered is not defined %}md:w-8/12{% endif %}">
+<div class="w-full max-w-xl mx-auto lg:max-w-3xl">
 	<div class="flex">
 		{% if block.authorImage|length %}
 			<div class="mr-12">
@@ -16,7 +16,7 @@
 			</div>
 		{% endif %}
 		<div class="flex flex-col items-center">
-			<blockquote class="text-4xl leading-tight text-center text-primary-600 font-accent">
+			<blockquote style="line-height: 1.2;" class="text-4xl font-normal text-center lg:text-5xl text-primary-500 font-accent">
 				{% if block.text|length %}
 					{{ block.text }}
 				{% endif %}

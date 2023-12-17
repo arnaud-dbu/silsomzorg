@@ -132,13 +132,21 @@
   @apply before:absolute before:inset-0 before:bg-primary-300 before:z-[-1] before:content-[''] ;
   
   &::before {
-    border-radius: 7rem 0 7rem 0;
+    border-radius: 10rem 0 10rem 0;
+    
+    @screen md {
+        border-radius: 12.5rem 0 12.5rem 0;
+      }
   }
     
 }
 
 .img-border {
-  border-radius: 7rem 0 7rem 0;
+  border-radius: 10rem 0 10rem 0;
+    
+  @screen md {
+      border-radius: 12.5rem 0 12.5rem 0;
+    }
 }
 
 .shape-secondary {

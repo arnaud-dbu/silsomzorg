@@ -7,6 +7,10 @@
   &--primary {
     @apply bg-primary;
   }
+
+  &--secondary {
+    @apply bg-secondary;
+  }
 }
 
 @screen md {
