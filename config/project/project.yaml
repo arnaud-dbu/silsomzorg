@@ -1,4 +1,4 @@
-dateModified: 1702576076
+dateModified: 1702932435
 elementSources:
   craft\elements\Entry:
     -
@@ -245,6 +245,7 @@ meta:
     2c770290-8edc-4f26-b846-6d99d36d7844: Common # Common
     2ca0a476-6c12-4021-92db-4b03db2aa891: Praktisch # Praktisch
     2e4b3bb0-26e4-47d2-9445-54401a221c63: 'X (Twitter)' # X (Twitter)
+    2e33d7f2-f6b5-4480-8746-7f9e64485ab7: 'Card Title' # Card Title
     2f8a6ddc-4ab7-4f9f-a2ea-72c6cb387f38: 'Overview description' # Overview description
     2fc9314d-a36d-4952-bc62-530aed9da924: Statik # Statik
     3e5318bd-23e0-4319-8f7c-3f38350d8764: 'Background Color' # Background Color
@@ -268,6 +269,7 @@ meta:
     7d23b02c-ad1d-44a8-9751-35fbdcc38963: Standard # Standard
     7def856e-47b3-4b83-ba43-23b5da28a176: Image # Image
     8e583282-1fec-4444-822f-37b2d5961f28: 'Set Password' # Set Password
+    8e948488-5794-489e-b243-52255256c7ca: Body # Body
     8f0da589-76b2-4663-9209-ba978821ca83: 'Set Password Confirmation' # Set Password Confirmation
     8fa3e75a-c69d-4482-9083-e416986b4788: Table # Table
     8ff8437a-a38f-47f0-b489-1701614eec3f: 'Header image' # Header image
@@ -324,6 +326,7 @@ meta:
     2561c4fb-34b5-49e6-ade6-f774411e48ba: Video # Video
     3196b984-5af4-44dd-a6db-ac2c8f7924d9: 'Content Managers' # Content Managers
     03498d1a-eb01-4cb2-9e2b-623015ed0d85: 'Link Style' # Link Style
+    3872c43b-1217-4034-adc0-9a199ce9276a: Cards # Cards
     4389ba83-8e69-4edb-b3c3-ca0ba89617c1: 'Background Color' # Background Color
     4666d048-0521-4d0f-9a4a-208e6182fb85: Fallback # Fallback
     4703bf34-5e13-4da1-aff6-d04c0bba024b: 'Set Password Confirmation' # Set Password Confirmation
@@ -372,16 +375,19 @@ meta:
     c03f3996-1548-44f0-a2af-7af8dca04025: 'Over Mezelf' # Over Mezelf
     c7f05fcd-6b9c-44dd-baee-f3e9cd0c47ac: 'News Category' # News Category
     c9d6819e-8ea5-4d16-91de-4c691d11b42d: New # New
+    c9e3038f-1d11-4076-a09a-189e17a61ee9: Cards # Cards
     c25b1e19-dca6-4ab5-a776-a043f6ee4c82: Login # Login
     c74db584-8982-4131-acaf-8448f5d1af9b: 'Forgot Password Confirmation' # Forgot Password Confirmation
     c2198cbb-f6e1-478a-ab4a-bbbaea43ce0e: 'Privacy policy' # Privacy policy
     c8533e19-1c6c-4d33-8e50-71babb409313: 'Video position' # Video position
     c576870d-abd8-46aa-8fe5-cdd12c40dfa8: 'News items' # News items
     ca8bb389-d0f3-4dbb-af40-e2f6ef211040: 'Call to action' # Call to action
+    cb28991c-267e-4fd1-8d58-d7241c8a7b1e: 'Block Title' # Block Title
     cd736fb3-c9b7-4ce1-88a8-da8b64249eb1: Image # Image
     ce1fab3c-0b02-49d8-8d8f-1bab2d7c05e2: LinkedIn # LinkedIn
     d04eb799-5eb6-46db-92f8-88c4e6b8812e: Intro # Intro
     d1d04451-f138-44f8-84d0-da5bd5e5417a: 'Over Mezelf' # Over Mezelf
+    d2b63dd9-2ba3-4249-bf98-d1385b127e0f: CTA # CTA
     d3b383b6-5ad7-494f-bc13-c06a53a5e5e9: 'News Overview' # News Overview
     d8d1d5d4-1fab-4aaa-b9e7-0eca37062865: Text # Text
     d66ffcef-8ccc-4e89-9e36-bce49e0dd17a: Video # Video

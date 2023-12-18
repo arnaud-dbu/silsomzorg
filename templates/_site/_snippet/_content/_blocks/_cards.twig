@@ -1,0 +1,17 @@
+<div class="section">
+	<h2 class="mb-8 text-center md:mb-12">{{ block.blockTitle }}</h2>
+	<div class="flex flex-wrap justify-center gap-8 ">
+		{% for card in block.cards %}
+			<div class="flex flex-col sm:max-w-[25rem] gap-4 px-8 py-8 min-h-[25rem] text-white bg-primary" style="border-radius: 0 10rem 0 0">
+				<div class="flex flex-col gap-3">
+					{{ icon('horse.svg')|attr({ class: 'w-16 h-16'}) }}
+					<span class="text-3xl text-white">{{ card.cardTitle }}</span>
+				</div>
+				<p>{{ card.body }}</p>
+				<div class="mt-auto">
+					{{ render_hyper_links(card.cta) | raw }}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>

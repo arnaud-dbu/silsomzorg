@@ -1,0 +1,103 @@
+field: 56d715d0-6a9d-4562-9c66-e5b4caad7f44 # Content Builder
+fieldLayouts:
+  92499aab-4ff7-4b4e-afa9-4a4917dc8e92:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cb28991c-267e-4fd1-8d58-d7241c8a7b1e # Block Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ddcd08b1-cf89-4ffa-9808-cc3287d8a6e9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c9e3038f-1d11-4076-a09a-189e17a61ee9 # Cards
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14948070-96a6-4a7d-882e-2af821c60a61
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 75422554-5248-4827-9137-cae29dc751fa
+        userCondition: null
+fields:
+  c9e3038f-1d11-4076-a09a-189e17a61ee9: # Cards
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: cards
+    instructions: null
+    name: Cards
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 262998124
+      columns:
+        __assoc__:
+          -
+            - 2e33d7f2-f6b5-4480-8746-7f9e64485ab7 # Card Title
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 8e948488-5794-489e-b243-52255256c7ca # Body
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - d2b63dd9-2ba3-4249-bf98-d1385b127e0f # CTA
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_12_cards}}'
+      fieldLayout: matrix
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: 'Add a card'
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  cb28991c-267e-4fd1-8d58-d7241c8a7b1e: # Block Title
+    columnSuffix: lxfkfdzs
+    contentColumnType: text
+    fieldGroup: null
+    handle: blockTitle
+    instructions: null
+    name: 'Block Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: cards
+name: Cards
+sortOrder: 11
