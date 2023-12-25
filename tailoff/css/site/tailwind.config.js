@@ -7,13 +7,13 @@ const siteColors = {
     primary: {
         DEFAULT: '#AB5E4F',
         contrast: '#ffffff',
-        hover: '#f27266',
+        hover: '#794338',
         hoverContrast: '#ffffff',
     },
     secondary: {
         DEFAULT: '#587B7F',
         contrast: '#ffffff',
-        hover: '#050cd8',
+        hover: '#3E575A',
         hoverContrast: '#ffffff',
     },
 };
@@ -38,7 +38,7 @@ module.exports = {
             padding: defaultTheme.spacing['4'],
         },
         fontFamily: {
-            accent: 'Kalnia',
+            accent: 'Playfair Display',
             base: 'Urbanist',
         },
         screens: {

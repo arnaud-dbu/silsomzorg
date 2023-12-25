@@ -6,7 +6,7 @@
 		<ul class="flex flex-wrap items-center space-x-7 pt-7 h-fit">
 			{% for node in mainNav %}
 				<li class="{% if node.classes|length %}{{ node.classes }}{% endif %}">
-					<a href="{{ node.url }}" class="hover:underline text-white {% if node.active %}active{% endif %}" {% if node.blank %} target="_blank" rel="noopener" {% endif %}>{{ node.name }}
+					<a href="{{ node.url }}" class="hover:underline {% if colorBackground or floatingHeader %}text-white{% else %}text-primary{% endif %} {% if node.active %}active{% endif %}" {% if node.blank %} target="_blank" rel="noopener" {% endif %}>{{ node.name }}
 					</a>
 				</li>
 			{% endfor %}

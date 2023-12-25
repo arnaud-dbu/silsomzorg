@@ -9,7 +9,7 @@
   }
 
   &--secondary {
-    @apply bg-secondary;
+    @apply bg-secondary-600;
   }
 }
 

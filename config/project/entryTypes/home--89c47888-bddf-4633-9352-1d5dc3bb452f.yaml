@@ -2,6 +2,7 @@ fieldLayouts:
   3ae7bc1a-3549-4cf7-b582-b14850d82009:
     tabs:
       -
+        elementCondition: null
         elements:
           -
             autocapitalize: true
@@ -9,6 +10,7 @@ fieldLayouts:
             autocorrect: true
             class: null
             disabled: false
+            elementCondition: null
             id: null
             instructions: null
             label: null
@@ -24,76 +26,104 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cc3c64cc-d213-426b-abb3-d09195026d13
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 37471b2c-6c44-4b1a-bc50-3788e9de05d5 # Hero
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: aa8d6153-eee4-48ed-80d2-c6d54f35c616
+            userCondition: null
             warning: null
             width: 100
           -
-            fieldUid: b5de6dcf-80e6-48e2-b846-0dab7f35c4c8 # Intro Text
+            elementCondition: null
+            fieldUid: 56d715d0-6a9d-4562-9c66-e5b4caad7f44 # Content Builder
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: a99edee5-2885-40bc-bde4-89ae04593189
+            userCondition: null
             warning: null
             width: 100
         name: Content
-        sortOrder: 1
+        uid: 2a9c45b6-4a5b-4b0a-9522-397067dfa197
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 4a2bad07-8d89-4689-b0bf-774eed764660 # Overview title
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 9d8565bd-6427-44b8-8e79-6c5593cca145
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 2f8a6ddc-4ab7-4f9f-a2ea-72c6cb387f38 # Overview description
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 10ededf4-d9c6-4bdd-9a30-812c0111105a
+            userCondition: null
             warning: null
             width: 100
           -
+            elementCondition: null
             fieldUid: 15ed2b72-8955-4cec-93f8-9736a9e50e80 # Overview image
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 620ba0ab-c8db-457b-b47f-42685078f147
+            userCondition: null
             warning: null
             width: 100
         name: Overview
-        sortOrder: 2
+        uid: 5df9a68a-abf8-4cf7-913c-bb994330c443
+        userCondition: null
       -
+        elementCondition: null
         elements:
           -
+            elementCondition: null
             fieldUid: 685530fc-e1f1-4be1-813b-ebf9ac3aa108 # SEO
             instructions: null
             label: null
-            required: '0'
+            required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
+            uid: 5729263b-51ef-4ea7-aa16-96293e7e7dca
+            userCondition: null
             warning: null
             width: 100
         name: SEO
-        sortOrder: 3
+        uid: 81cc32f7-aa3a-433e-a90c-1972f9162c80
+        userCondition: null
 handle: home
 hasTitleField: false
 name: Home
 section: 5611e98d-93ec-4bd4-95dd-18f282b8c5e8 # Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null

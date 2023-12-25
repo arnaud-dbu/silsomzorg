@@ -1,4 +1,4 @@
-changedFieldIndicator: 1574631935
+changedFieldIndicator: 689025806
 field: c9e3038f-1d11-4076-a09a-189e17a61ee9 # Cards
 fieldLayouts:
   cb90b413-f630-4f54-87f8-f072ccb6b482:
@@ -1505,23 +1505,6 @@ fields:
                                   -
                                     - uid
                                     - 93c4b7a9-54d2-4e69-a29d-3def14a37a13
-                              -
-                                __assoc__:
-                                  -
-                                    - type
-                                    - craft\fieldlayoutelements\CustomField
-                                  -
-                                    - required
-                                    - false
-                                  -
-                                    - width
-                                    - 100
-                                  -
-                                    - uid
-                                    - f987bb23-8e25-438b-a3f4-ca95b9acde63
-                                  -
-                                    - fieldUid
-                                    - 03498d1a-eb01-4cb2-9e2b-623015ed0d85 # Link Style
                       -
                         __assoc__:
                           -
@@ -1577,6 +1560,23 @@ fields:
                                   -
                                     - uid
                                     - 5b5115e7-207a-45a9-8b45-ee0b39478cab
+                              -
+                                __assoc__:
+                                  -
+                                    - type
+                                    - craft\fieldlayoutelements\CustomField
+                                  -
+                                    - required
+                                    - false
+                                  -
+                                    - width
+                                    - 100
+                                  -
+                                    - uid
+                                    - f987bb23-8e25-438b-a3f4-ca95b9acde63
+                                  -
+                                    - fieldUid
+                                    - 03498d1a-eb01-4cb2-9e2b-623015ed0d85 # Link Style
                               -
                                 __assoc__:
                                   -

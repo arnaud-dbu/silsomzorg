@@ -19,7 +19,7 @@
   }
 
   h1 {
-    @apply text-4xl text-white sm:text-5xl xl:text-6xl;
+    @apply text-4xl text-white sm:text-5xl xl:text-7xl;
   }
 
   h2 {
@@ -129,7 +129,7 @@
 }
 
 .bg-frame {
-  @apply before:absolute before:inset-0 before:bg-primary-300 before:z-[-1] before:content-[''] ;
+  @apply before:absolute before:inset-0 before:bg-primary-300 before:z-[-1] before:content-[''] before:left-3 before:top-3;
   
   &::before {
     border-radius: 10rem 0 10rem 0;
@@ -169,4 +169,10 @@ input[type='search']::-webkit-search-cancel-button,
 input[type='search']::-webkit-search-results-button,
 input[type='search']::-webkit-search-results-decoration {
   display: none;
+}
+
+.path-secondary {
+  & path {
+    @apply fill-secondary ;
+  }
 }

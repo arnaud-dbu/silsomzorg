@@ -7,10 +7,10 @@
 	{% if darkOpacity > darkOpacityMaxIntensity %}
 		{% set darkOpacity = darkOpacityMaxIntensity %}
 	{% endif %}
-	<div class="relative py-10 bg-black bg-cover sm:py-20 js-bg-target" style="background-position: {% for focalPoint in heroImage.getFocalPoint() %} {{ focalPoint * 100 }}% {% endfor %};">
+	<div class="w-screen relative py-10 bg-black bg-cover h-[100dvh] max-h-[65rem] sm:py-20 js-bg-target" style="background-position: {% for focalPoint in heroImage.getFocalPoint() %} {{ focalPoint * 100 }}% {% endfor %};">
 		<div class="absolute inset-0 w-full h-full bg-pitch-black" style="opacity: {{darkOpacity}}%" aria-hidden="true"></div>
-		<div class="container">
-			<div class="w-full md:w-1/2">
+		<div class="container flex items-end w-full h-full">
+			<div class="w-ful px-10 py-20 max-w-lg lg:px-16 lg:py-20 rounded-tr-[15rem] md:w-1/2 bg-primary-500/75">
 				<div class="relative z-10">
 					{% if hero.heroTitle|length %}
 						<h1 class="text-white">{{ hero.heroTitle }}</h1>

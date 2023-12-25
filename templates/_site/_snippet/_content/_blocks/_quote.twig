@@ -16,12 +16,15 @@
 			</div>
 		{% endif %}
 		<div class="flex flex-col items-center">
-			<blockquote style="line-height: 1.2;" class="text-4xl font-normal text-center lg:text-5xl text-primary-500 font-accent">
+			<blockquote style="line-height: 1.2;" class="relative flex flex-col items-center gap-6 text-4xl font-thin text-center lg:text-4xl text-secondary">
 				{% if block.text|length %}
 					{{ block.text }}
 				{% endif %}
 				{% if block.writer|length %}
-					<footer class="mt-4 text-lg text-black font-base">{{ block.writer }}</footer>
+					<hr class="w-6 h-1 bg-black/50">				
+				{% endif %}
+				{% if block.writer|length %}
+					<footer class="text-lg text-black font-base">{{ block.writer }}</footer>
 				{% endif %}
 			</blockquote>
 			{% if block.cta|length %}

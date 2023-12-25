@@ -2,11 +2,15 @@
 
 {% set breadcrumbs = entry.ancestors().all()|merge([entry]) %}
 
+{% block header %}
+	{% include '_site/_snippet/_global/_header' with {colorBackground:true}  %}
+{% endblock %}
+
 {% block content %}
 
-    {% include "_site/_snippet/_content/_defaultHeader" %}
+	{% include "_site/_snippet/_content/_defaultHeader" %}
 
-    {% include '_site/_snippet/_content/_contentBuilder'
+	{% include '_site/_snippet/_content/_contentBuilder'
         with {
         settings : {
             section: 'section',

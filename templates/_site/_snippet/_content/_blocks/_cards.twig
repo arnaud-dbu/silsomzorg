@@ -9,7 +9,9 @@
 				</div>
 				<p>{{ card.body }}</p>
 				<div class="mt-auto">
-					{{ render_hyper_links(card.cta) | raw }}
+					{{ card.cta.getLink({
+					class: 'link text-white link--ext',
+					}) }}
 				</div>
 			</div>
 		{% endfor %}

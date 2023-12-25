@@ -5,7 +5,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="/frontend/inert.css" id="inert-style"/>
+		<link
+		rel="stylesheet" type="text/css" href="/frontend/inert.css" id="inert-style"/>
 		{# Change these when you have a multisite with different layout #}
 		{{ craft.vite.script("tailoff/js/site.ts", false) }}
 		{{ craft.vite.inline("@webroot/favicon/site/webapp.html") }}
@@ -13,7 +14,8 @@
 		{% hook 'seo-fields' %}
 
 		{% block head_scripts %}
-			<link rel="preconnect" href="//www.googletagmanager.com">
+			<link
+			rel="preconnect" href="//www.googletagmanager.com">
 			{# <link rel="preconnect" href="//fonts.gstatic.com">  #}
 			{% if not craft.app.request.isPreview() %}
 				{# put GTM here #}
@@ -38,7 +40,8 @@
 
 		{% if currentUser and entry is defined and entry.canSave(currentUser) and not systemOffline and not craft.app.request.isPreview() %}
 			<a href="{{ entry.getCpEditUrl() }}" target="_blank" class="hidden md:inline-block transform translate-x-[115px] fixed px-4 py-2 text-white bg-secondary right-0 rounded-l-full shadow-lg top-10 z-99 transition ease duration-400 hover:translate-x-0">
-				<span>{{ icon('pencil', { class: '-mt-1' }) }} </span>
+				<span>{{ icon('pencil', { class: '-mt-1' }) }}
+				</span>
 				<span class="ml-2">Edit this page</span>
 			</a>
 		{% endif %}
@@ -55,24 +58,24 @@
 				<a href="#main">{{ 'Ga verder naar de inhoud'|t }}</a>
 			</div>
 
-			{% include '_site/_snippet/_global/_header' %}
+			{% block header %}{% endblock %}
+
 			{% include '_site/_snippet/_global/_flyout' %}
 
-			<main class="flex-1 page-main" id="main">
-				{% block content %}{% endblock %}
-			</main>
+			<main class="flex-1 page-main" id="main"> {% block content %}{% endblock %}
+				</main>
 
-			{% include '_site/_snippet/_global/_footer' %}
+				{% include '_site/_snippet/_global/_footer' %}
 
-		</div>
+			</div>
 
-		{% block inline_scripts %}
-			<script>
-				window.app = window.app || {};
-				app.variables = {
-					assetsPath: "/"
-				};
-			</script>
-		{% endblock %}
-	</body>
-</html>
+			{% block inline_scripts %}
+				<script>
+					window.app = window.app || {};
+app.variables = {
+assetsPath: "/"
+};
+				</script>
+			{% endblock %}
+		</body>
+	</html>

@@ -1,4 +1,4 @@
-dateModified: 1702932435
+dateModified: 1703539570
 elementSources:
   craft\elements\Entry:
     -
@@ -33,6 +33,21 @@ elementSources:
         - revisionCreator
         - dateUpdated
         - link
+      type: native
+    -
+      key: 'single:30cf9f43-7f6c-41e2-8580-97a07eff970e' # Equitherapie
+      type: native
+    -
+      key: 'single:ae20f2da-b61a-4f2f-9f16-792256ed34f3' # Praktisch
+      type: native
+    -
+      key: 'single:d1d04451-f138-44f8-84d0-da5bd5e5417a' # Over Mezelf
+      type: native
+    -
+      key: 'single:dae8fee4-9b79-4e5f-a186-788dca59dcbc' # Methode
+      type: native
+    -
+      key: 'single:e307e3c6-1674-499a-a859-923d8b7f2e89' # AAE
       type: native
     -
       disabled: false
@@ -170,6 +185,9 @@ elementSources:
       heading: Other
       type: heading
     -
+      heading: ''
+      type: heading
+    -
       disabled: false
       key: 'single:36895330-a28e-477f-9327-bdbe66dabf99' # Cookie policy
       tableAttributes:
@@ -216,6 +234,12 @@ elementSources:
         - revisionCreator
         - dateUpdated
         - link
+      type: native
+    -
+      key: 'single:6f79e12f-9d80-4f17-ae51-5160127975ec' # Site Settings
+      type: native
+    -
+      key: 'section:01faae48-e031-4496-af0c-89de7f12eccd' # News categories
       type: native
 email:
   fromEmail: $SYSTEM_EMAIL
@@ -398,6 +422,7 @@ meta:
     df7389a1-233e-4f41-8340-9d16eee18c51: CTA # CTA
     e2e2a303-7d29-4edb-846d-84e6c8494c50: Title # Title
     e3bed4e1-82ae-45e8-908c-0a6669141b31: 'Search results' # Search results
+    e32f46ad-bafc-44b6-8bb3-208260cba9cb: Socials # Socials
     e57cf13b-f9cb-484a-8093-a897fa43eb68: EN # EN
     e73dd38a-5d76-40ba-99eb-25ee65bf7ab5: 'Title Column 2' # Title Column 2
     e85a2f89-c711-4452-8eda-43dac6449f63: '503' # 503

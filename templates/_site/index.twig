@@ -1,41 +1,42 @@
 {% extends "_site/_layout" %}
 
+{% block header %}
+	{% include '_site/_snippet/_global/_header' with { floatingHeader : true } %}
+{% endblock %}
+
 {% block content %}
-    
 
-    {% include '_site/_snippet/_content/_hero' %}
 
-    <div class="section section--default">
-        <div class="container">
-            <div class="w-full md:w-3/4">
-                <p class="">If you want to know how to use the various JS components, you can
-                    <a class="underline" href="/jsPlugins/overview.twig">
-                    take a look at the examples.
-                    {{ icon('chevron-right', { class: 'text-primary' }) }} 
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
+	{% include '_site/_snippet/_content/_hero' %}
 
-    {% set news = craft.entries().section('news').with(['overviewImage']).orderBy('postDate DESC').limit(3).collect() %}
-    {% if news|length %}
-        <div class="section section--default">
-            <div class="container">
-                <h2 class="heading-2">{{ 'Laatste nieuws'|t }}</h2>
-                <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
-                    {% for cardEntry in news.all() %}
-                        {% include '_site/_snippet/_item/_card' with {amount: news.count()} %}
-                    {% endfor %}
-                </div> 
-                {% set newsOverview = craft.entries.section('newsOverview').one() %}
-                {% if newsOverview|length %}
-                    <div class="my-10 text-center">
-                        <a href="{{ newsOverview.url }}" class="btn btn--primary btn--ext">{{ "Meer nieuws"|t }}</a>
-                    </div>
-                {% endif %}
-            </div>
-        </div>
-    {% endif %}
+	{% set news = craft.entries().section('news').with(['overviewImage']).orderBy('postDate DESC').limit(3).collect() %}
+	{% if news|length %}
+		<div class="section section--default">
+			<div class="container">
+				<h2 class="heading-2">{{ 'Laatste nieuws'|t }}</h2>
+				<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
+					{% for cardEntry in news.all() %}
+						{% include '_site/_snippet/_item/_card' with {amount: news.count()} %}
+					{% endfor %}
+				</div>
+				{% set newsOverview = craft.entries.section('newsOverview').one() %}
+				{% if newsOverview|length %}
+					<div class="my-10 text-center">
+						<a href="{{ newsOverview.url }}" class="btn btn--primary btn--ext">{{ "Meer nieuws"|t }}</a>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	{% endif %}
+
+
+	{% include '_site/_snippet/_content/_contentBuilder'
+        with {
+        settings : {
+            section: 'section',
+            container: 'container',
+        }
+    } %}
+
 
 {% endblock %}

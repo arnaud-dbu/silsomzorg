@@ -1,8 +1,14 @@
 .link {
-  @apply inline-flex font-bold text-primary;
+  @apply inline-flex font-semibold text-primary-500;
 
   &:hover {
-    @apply no-underline;
+    @apply underline;
+
+    &.link--ext {
+      &::after {
+        @apply ml-3;
+      }
+    }
   }
 
   &--ext {
@@ -10,7 +16,7 @@
     @mixin icon arrow-right;
 
     &::after {
-      @apply ml-2;
+      @apply ml-2 transition-all duration-300;
     }
   }
 
