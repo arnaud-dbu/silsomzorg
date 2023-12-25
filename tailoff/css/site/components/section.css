@@ -1,5 +1,5 @@
 .section {
-  @apply py-10 ;
+  @apply my-12 ;
 
   &--light {
   }
@@ -15,7 +15,7 @@
 
 @screen md {
   .section {
-    @apply py-12;
+    @apply my-28;
   }
 }
 
