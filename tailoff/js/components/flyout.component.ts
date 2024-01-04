@@ -35,6 +35,8 @@ export class FlyoutComponent {
         el.removeAttribute('tabindex');
       });
 
+
+
       document.addEventListener(
         'click',
         (e) => {
