@@ -15,7 +15,7 @@
 
 @screen md {
   .section {
-    @apply my-28;
+    @apply my-20;
   }
 }
 
