@@ -30,6 +30,42 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: b5de6dcf-80e6-48e2-b846-0dab7f35c4c8 # Intro Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5ad92226-d083-46cd-9712-d383edb8a30a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8ff8437a-a38f-47f0-b489-1701614eec3f # Header image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9994d6c-1d5f-4ead-add6-3cf0318d01a2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 56d715d0-6a9d-4562-9c66-e5b4caad7f44 # Content Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 431b2a7f-ce99-4346-a80f-71f276c4e854
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 05a7f57b-c33f-458d-971b-ff68451e6da5
         userCondition: null
