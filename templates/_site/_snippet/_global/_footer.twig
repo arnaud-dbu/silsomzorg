@@ -36,7 +36,7 @@
 					{% if generalInfo.facebook or  generalInfo.instagram or generalInfo.linkedin or generalInfo.twitter or generalInfo.youtube %}
 						<div class="flex items-center mt-4">
 							<ul class="flex space-x-4">
-								{% include '_site/_snippet/_content/_socialMedia' with { generalInfo : generalInfo} %}
+								{% include '_site/_snippet/_content/_socialMedia' with { generalInfo : generalInfo, colorWhite: true } %}
 							</ul>
 						</div>
 					{% endif %}
