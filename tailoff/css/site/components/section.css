@@ -6,7 +6,7 @@
 
   &--primary {
     @apply bg-primary;
-  }
+  } 
 
   &--secondary {
     @apply bg-secondary-600;
