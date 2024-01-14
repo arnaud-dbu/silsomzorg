@@ -2,9 +2,9 @@
 	<div class="flex">
 		{% if block.authorImage|length %}
 			<div class="mr-12">
-			{% set asset = block.authorImage|first %}
-			{% do asset.setTransform({ width: 225, height: 225 }) %}
-			{{ tag('img', {
+				{% set asset = block.authorImage|first %}
+				{% do asset.setTransform({ width: 225, height: 225 }) %}
+				{{ tag('img', {
 				src: asset.url,
 				width: asset.width,
 				height: asset.height,
@@ -18,10 +18,12 @@
 		<div class="flex flex-col items-center">
 			<blockquote style="line-height: 1.2;" class="relative flex flex-col items-center gap-6 text-5xl font-thin text-center font-accent lg:text-6xl text-secondary">
 				{% if block.text|length %}
-					"{{ block.text }}"
+					<span>
+						"{{ block.text }}"
+					</span>
 				{% endif %}
 				{% if block.writer|length %}
-					<hr class="w-6 h-1 bg-black/50">				
+					<hr class="w-6 h-1 bg-black/50">
 				{% endif %}
 				{% if block.writer|length %}
 					<footer class="text-lg text-black font-base">{{ block.writer }}</footer>
