@@ -3,7 +3,7 @@
 		<div class="block absolute -top-[5rem] -right-[13.5rem] opacity-50 rotate-45 md:-top-[21rem] sm:-right-[5rem] lg:right-[0rem] xl:right-[10rem] sm:opacity-100">
 			{{ svg('@webroot/frontend/img/site/shape.svg')|attr({ class:'w-[35rem]' }) }}
 		</div>
-		<div class="container">
+		<div class="container relative z-10">
 			<a href="{{ siteUrl }}" class="">
 				{{ svg('@webroot/frontend/img/site/logo-white.svg')|attr({ class: 'w-full max-w-logo', role: 'img', 'aria-label': 'Statik' }) }}
 				<span class="sr-only">{{"Startpagina"|t}}</span>
@@ -89,5 +89,6 @@
 				</div>
 			</div>
 		</div>
+
 	</div>
 </footer>
