@@ -1,8 +1,8 @@
 {% if block.blockTitle|length or block.text|length %}
-	<div class="relative w-full mx-auto overflow-hidden bg-white md:shadow-card">
+	<div class="relative w-full mx-auto overflow-hidden bg-white">
 		<div class="flex flex-wrap">
 			<div class="w-full min-h-[25rem] lg:min-h-[30rem] xl:min-h-[35rem] js-bg-target bg-cover flex items-center justify-center {% if block.image|length %}w-full{% else %}text-center{% endif %}">
-				<div class="flex flex-col items-center max-w-3xl mx-10 my-20 text-white ">
+				<div class="flex flex-col items-center max-w-3xl py-16 mx-10 my-20 text-white shadow-lg px-14 md:px-24 bg-secondary/60 img-border">
 					{% if block.blockTitle|length %}
 						<h2 class="text-center text-white" id="{{ block.blockTitle|slugify }}">{{ block.blockTitle }}</h2>
 					{% endif %}
