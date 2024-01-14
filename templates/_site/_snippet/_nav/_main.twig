@@ -1,5 +1,6 @@
 {% set mainNav = craft.navigate.raw('mainNav') %}
 {% set searchResultsEntry = craft.entries.section('searchResults').one() %}
+{% set generalInfo = craft.entries.section('contact').status(null).one() %}
 
 {% if mainNav|length %}
 	<nav class="" aria-label="{{ 'Main'|t }}">
@@ -10,7 +11,7 @@
 					</a>
 				</li>
 			{% endfor %}
-			<a class="btn btn--secondary btn--sml " href="">
+			<a class="btn btn--secondary btn--sml " href="mailto:{{ generalInfo.mail }}">
 				{{'Contact'|t}}</a>
 		</ul>
 	</nav>
