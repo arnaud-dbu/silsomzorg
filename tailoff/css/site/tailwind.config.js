@@ -52,6 +52,7 @@ module.exports = {
             colors: {
                 ...siteColors,
                 'black': '#0A122A',
+                'blackTransparent': '#00000093',
                 'white': '#F8F2F1',
                 'pitch-black': '#000000',
                 'light': '#F8F2F1',
