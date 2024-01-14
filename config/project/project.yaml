@@ -1,4 +1,4 @@
-dateModified: 1704655761
+dateModified: 1705268934
 elementSources:
   craft\elements\Entry:
     -
@@ -38,7 +38,7 @@ elementSources:
       key: 'single:30cf9f43-7f6c-41e2-8580-97a07eff970e' # Equitherapie
       type: native
     -
-      key: 'single:ae20f2da-b61a-4f2f-9f16-792256ed34f3' # Praktisch
+      key: 'single:ae20f2da-b61a-4f2f-9f16-792256ed34f3'
       type: native
     -
       key: 'single:d1d04451-f138-44f8-84d0-da5bd5e5417a' # Over Mezelf
@@ -267,7 +267,6 @@ meta:
     01faae48-e031-4496-af0c-89de7f12eccd: 'News categories' # News categories
     2a768305-5971-43c0-a2f4-415e648c6a45: Default # Default
     2c770290-8edc-4f26-b846-6d99d36d7844: Common # Common
-    2ca0a476-6c12-4021-92db-4b03db2aa891: Praktisch # Praktisch
     2e4b3bb0-26e4-47d2-9445-54401a221c63: 'X (Twitter)' # X (Twitter)
     2e33d7f2-f6b5-4480-8746-7f9e64485ab7: 'Card Title' # Card Title
     2f8a6ddc-4ab7-4f9f-a2ea-72c6cb387f38: 'Overview description' # Overview description
@@ -382,7 +381,6 @@ meta:
     a44287f8-d6ed-4f2c-8a63-0c1312ef236e: Image # Image
     aac522be-8926-4b5e-ae63-cb77840a69c9: 'Registration completed' # Registration completed
     ac60331a-e9bd-4399-8b44-42a2c469fd52: 'Background color' # Background color
-    ae20f2da-b61a-4f2f-9f16-792256ed34f3: Praktisch # Praktisch
     ae73d04c-119e-4cc7-a3fc-bf41d36c5510: 'Background Color' # Background Color
     af69e9a2-96df-4fa9-8cc3-2728ec4fc632: 'Edit password' # Edit password
     b1ca80f0-4eed-4f99-bebc-bca6c694cb00: 'Contact Form' # Contact Form
