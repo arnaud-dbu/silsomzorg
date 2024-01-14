@@ -19,7 +19,7 @@
 			<blockquote style="line-height: 1.2;" class="relative flex flex-col items-center gap-6 text-5xl font-thin text-center font-accent lg:text-6xl text-secondary">
 				{% if block.text|length %}
 					<span>
-						"{{ block.text }}"
+						{{ block.text }}
 					</span>
 				{% endif %}
 				{% if block.writer|length %}
