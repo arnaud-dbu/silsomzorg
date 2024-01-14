@@ -130,7 +130,7 @@
 
 .bg-frame {
   @apply before:absolute before:inset-0 before:bg-primary-300 before:z-[-1] before:content-[''] before:left-3 before:top-3;
-  background-color: #0a122ab0;
+  background-color: #0a122a7c;
   &::before {
     border-radius: 10rem 0 10rem 0;
     

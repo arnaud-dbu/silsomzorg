@@ -2,7 +2,7 @@
 	<div class="relative w-full mx-auto overflow-hidden bg-white">
 		<div class="flex flex-wrap">
 			<div class="w-full min-h-[25rem] lg:min-h-[30rem] xl:min-h-[35rem] js-bg-target bg-cover flex items-center justify-center {% if block.image|length %}w-full{% else %}text-center{% endif %}">
-				<div class="flex flex-col items-center max-w-3xl px-16 py-16 mx-10 my-20 text-white shadow-lg md:px-24 img-border bg-black/60">
+				<div class="flex flex-col items-center max-w-3xl px-16 py-16 mx-10 my-20 text-white shadow-lg md:px-24 img-border" style="background-color: #0a122a7c;">
 					{% if block.blockTitle|length %}
 						<h2 class="text-center text-white" id="{{ block.blockTitle|slugify }}">{{ block.blockTitle }}</h2>
 					{% endif %}
